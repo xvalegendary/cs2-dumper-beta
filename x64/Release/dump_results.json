@@ -1,0 +1,123 @@
+{
+  "pid": 21812,
+  "buildNumber": 14088,
+  "results": [
+    {
+      "name": "GlobalVars",
+      "module": "client.dll",
+      "pattern": "<known>",
+      "rva_instr": "0x0",
+      "rva_addr": "0x184CEB0",
+      "instr": "0x0",
+      "addr": "0x7FF967CCCEB0",
+      "qword": "0x0",
+      "ok": true,
+      "score": 35,
+      "notes": "[fallback known] "
+    },
+    {
+      "name": "EntityList",
+      "module": "client.dll",
+      "pattern": "48 8B 0D ?? ?? ?? ?? 48 89 7C 24 ?? 8B FA C1 EB",
+      "rva_instr": "0x626FC4",
+      "rva_addr": "0x1A05670",
+      "instr": "0x7FF966AA6FC4",
+      "addr": "0x7FF967E85670",
+      "qword": "0x19D29D72800",
+      "ok": true,
+      "score": 100,
+      "notes": ""
+    },
+    {
+      "name": "ViewMatrix",
+      "module": "client.dll",
+      "pattern": "48 8D 0D ?? ?? ?? ?? 48 C1 E0 06",
+      "rva_instr": "0x252503",
+      "rva_addr": "0x1A6E3F0",
+      "instr": "0x7FF9666D2503",
+      "addr": "0x7FF967EEE3F0",
+      "qword": "0x0",
+      "ok": true,
+      "score": 100,
+      "notes": ""
+    },
+    {
+      "name": "ViewAngles",
+      "module": "client.dll",
+      "pattern": "48 8B 0D ?? ?? ?? ?? E9 ?? ?? ?? ?? CC CC CC CC 40 55",
+      "rva_instr": "0x75A140",
+      "rva_addr": "0x1A78650",
+      "instr": "0x7FF966BDA140",
+      "addr": "0x7FF967EF8650",
+      "qword": "0x7FF967EF8280",
+      "ok": true,
+      "score": 100,
+      "notes": ""
+    },
+    {
+      "name": "LocalPlayerController",
+      "module": "client.dll",
+      "pattern": "48 8B 05 ?? ?? ?? ?? 48 85 C0 74 53",
+      "rva_instr": "0x5C5690",
+      "rva_addr": "0x1A53C38",
+      "instr": "0x7FF966A45690",
+      "addr": "0x7FF967ED3C38",
+      "qword": "0x19FA0FD3C00",
+      "ok": true,
+      "score": 100,
+      "notes": ""
+    },
+    {
+      "name": "LocalPlayerPawn",
+      "module": "client.dll",
+      "pattern": "<known>",
+      "rva_instr": "0x0",
+      "rva_addr": "0x18590D0",
+      "instr": "0x0",
+      "addr": "0x7FF967CD90D0",
+      "qword": "0x0",
+      "ok": true,
+      "score": 35,
+      "notes": "[fallback known] "
+    },
+    {
+      "name": "Prediction",
+      "module": "client.dll",
+      "pattern": "48 8D 05 ?? ?? ?? ?? C3 CC CC CC CC CC CC CC CC 48 83 EC ?? 8B 0D",
+      "rva_instr": "0x7F1FB0",
+      "rva_addr": "0x1858F50",
+      "instr": "0x7FF966C71FB0",
+      "addr": "0x7FF967CD8F50",
+      "qword": "0x0",
+      "ok": true,
+      "score": 95,
+      "notes": ""
+    },
+    {
+      "name": "PlantedC4",
+      "module": "client.dll",
+      "pattern": "<known>",
+      "rva_instr": "0x0",
+      "rva_addr": "0x1A72ED0",
+      "instr": "0x0",
+      "addr": "0x7FF967EF2ED0",
+      "qword": "0x0",
+      "ok": true,
+      "score": 35,
+      "notes": "[fallback known] "
+    },
+    {
+      "name": "InventoryServices",
+      "module": "client.dll",
+      "pattern": "48 8B 0D ?? ?? ?? ?? 48 8B 01 FF 90 ?? ?? ?? ?? 48 8B 0D ?? ?? ?? ??",
+      "rva_instr": "0x148FF9",
+      "rva_addr": "0x1B9AA58",
+      "instr": "0x7FF9665C8FF9",
+      "addr": "0x7FF96801AA58",
+      "qword": "0x7FF97FB4E000",
+      "ok": true,
+      "score": 100,
+      "notes": ""
+    }
+  ]
+}

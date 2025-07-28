@@ -1,0 +1,12 @@
+{
+  "build": 14088,
+  "client": {
+    "dwEntityList": "0x1A05670",
+    "dwViewMatrix": "0x1A6E3F0",
+    "dwViewAngles": "0x1A78650",
+    "dwLocalPlayerController": "0x1A53C38",
+    "dwLocalPlayerPawn": "0x18590D0",
+    "dwGlobalVars": "0x184CEB0",
+    "dwPlantedC4": "0x1A72ED0"
+  }
+}

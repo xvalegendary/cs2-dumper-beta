@@ -1,0 +1,48 @@
+﻿  signatures-dumper.cpp
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(28,24): error C2079: 'iss' uses undefined class 'std::basic_istringstream<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(30,16): error C2677: binary '>>': no global operator found which takes type 'std::string' (or there is no acceptable conversion)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(3395,32):
+      could be 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(30,12):
+          'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\istream(865,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)'
+          C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(30,12):
+          'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\istream(870,31):
+      or       'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)'
+          C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(30,12):
+          'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)': could not deduce template argument for 'std::basic_istream<char,_Traits> &' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\istream(875,31):
+      or       'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)'
+          C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(30,12):
+          'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)': could not deduce template argument for 'std::basic_istream<char,_Traits> &' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\istream(881,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)'
+          C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(30,12):
+          'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\istream(904,31):
+      or       'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)'
+          C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(30,12):
+          'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)': could not deduce template argument for 'std::basic_istream<char,_Traits> &' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\istream(910,31):
+      or       'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)'
+          C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(30,12):
+          'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)': could not deduce template argument for 'std::basic_istream<char,_Traits> &' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\istream(923,9):
+      or       '_Istr &&std::operator >>(_Istr &&,_Ty &&)'
+          C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(30,12):
+          '_Istr &&std::operator >>(_Istr &&,_Ty &&)': could not deduce template argument for '__formal'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\istream(922,102):
+              '<template-parameter>': you cannot create a pointer to a reference
+  
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(44,73): error C2059: syntax error: ')'
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(45,54): error C2059: syntax error: ';'
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003: The specified task executable "CL.exe" could not be run. System.IO.IOException: The process cannot access the file 'x64\Debug\signatur.ac225978.tlog\CL.write.1.tlog' because it is being used by another process.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003:    at System.IO.FileInfo.Delete()
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.DeleteEmptyFile(ITaskItem[] filesToDelete)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003:    at Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003:    at Microsoft.Build.CPPTasks.CL.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(787,5): error MSB6003:    at Microsoft.Build.Utilities.ToolTask.Execute()

@@ -1,0 +1,23 @@
+﻿  signatures-dumper.cpp
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(75,40): warning C4566: character represented by universal-character-name '\u2714' cannot be represented in the current code page (1251)
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(76,40): warning C4566: character represented by universal-character-name '\u2139' cannot be represented in the current code page (1251)
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(77,40): warning C4566: character represented by universal-character-name '\u26A0' cannot be represented in the current code page (1251)
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(78,40): warning C4566: character represented by universal-character-name '\u2716' cannot be represented in the current code page (1251)
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(79,40): warning C4566: character represented by universal-character-name '\U0001F50E' cannot be represented in the current code page (1251)
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(80,40): warning C4566: character represented by universal-character-name '\u2705' cannot be represented in the current code page (1251)
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(81,40): warning C4566: character represented by universal-character-name '\u25C6' cannot be represented in the current code page (1251)
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(83,40): warning C4566: character represented by universal-character-name '\u25FC' cannot be represented in the current code page (1251)
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(184,42): warning C4566: character represented by universal-character-name '\u250F' cannot be represented in the current code page (1251)
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(184,42): warning C4566: character represented by universal-character-name '\u2501' cannot be represented in the current code page (1251)
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(184,42): warning C4566: character represented by universal-character-name '\u2513' cannot be represented in the current code page (1251)
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(185,42): warning C4566: character represented by universal-character-name '\u2503' cannot be represented in the current code page (1251)
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(185,158): warning C4566: character represented by universal-character-name '\u2503' cannot be represented in the current code page (1251)
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(186,42): warning C4566: character represented by universal-character-name '\u2517' cannot be represented in the current code page (1251)
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(186,42): warning C4566: character represented by universal-character-name '\u2501' cannot be represented in the current code page (1251)
+C:\Users\xvalegendary\Desktop\signatures-dumper\signatures-dumper\signatures-dumper.cpp(186,42): warning C4566: character represented by universal-character-name '\u251B' cannot be represented in the current code page (1251)
+  Generating code
+  0 of 1126 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  signatures-dumper.vcxproj -> C:\Users\xvalegendary\Desktop\signatures-dumper\x64\Release\signatures-dumper.exe
