@@ -125,7 +125,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="logx.cpp" />
+    <ClCompile Include="module_util.cpp" />
+    <ClCompile Include="offsets_writer.cpp" />
+    <ClCompile Include="pattern_util.cpp" />
+    <ClCompile Include="process_util.cpp" />
     <ClCompile Include="signatures-dumper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="logx.hpp" />
+    <ClInclude Include="main_types.hpp" />
+    <ClInclude Include="module_util.hpp" />
+    <ClInclude Include="offsets_writer.hpp" />
+    <ClInclude Include="pattern_util.hpp" />
+    <ClInclude Include="process_util.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
